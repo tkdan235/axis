@@ -43,7 +43,7 @@ Debug builds are now available in the `build/` directory.
 For an interactive example, `make example` and navigate to http://localhost:9966/ in your browser =)
 
 ```js
-const { createAxisFrame } = requre('@littlstar/axis')
+const { createAxisFrame } = require('@littlstar/axis')
 const domElement = document.querySelector('#video');
 const frame = createAxisFrame(domElement, {
   src: '/path/to/video.mp4'
